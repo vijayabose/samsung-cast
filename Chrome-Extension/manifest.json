@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "CastIn Extension",
+  "description": "With this app, you can control DLNA devices from your browser.",
+  "version": "0.1",
+  "minimum_chrome_version": "24",
+  "icons": {
+    "16": "img/16.png",
+    "128": "img/128.png"
+  },
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "img/16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "management",
+    "http://*/"
+  ]
+}

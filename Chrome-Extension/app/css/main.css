@@ -1,0 +1,47 @@
+body, div, span {
+	padding: 0px;
+    margin: 0px;
+}
+body {
+	min-width:300px;
+	background-color: rgb(251, 252, 239);
+}
+a {
+   text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+#titleBar{
+    background-color : rgba(202, 204, 151, 1);
+    padding-left : 5px;
+}
+.title{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	margin-top: 10px;
+	color: rgb(48, 102, 184);
+}
+.modal {
+ position: fixed; 
+ top:50%; 
+ left:50%; 
+} 
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}

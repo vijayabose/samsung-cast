@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "CastIn App",
+  "description": "With this app, you can control DLNA devices from your browser.",
+  "version": "0.1",
+  "minimum_chrome_version": "24",
+  //"content_security_policy" : "default-src 'self'; img-src 'self' http://*/*; script-src 'unsafe-eval';  object-src 'unsafe-eval';",  
+  "icons": {
+    "16": "img/16.png",
+    "128": "img/128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": [
+        "javascripts/tv.js",
+        "javascripts/jquery-1.7.2.min.js",
+        "background.js"
+      ],
+      "persistent": false
+    }
+  },
+"sockets": {
+    "udp": {
+      "send": ["*"],
+      "bind": ["*"]
+    },
+    "tcp" : {
+      "connect": ["*"]
+    },
+    "tcpServer" : {
+      "listen": ["*"]
+    }
+  },
+
+  "permissions": [
+    "alarms",
+    "http://*/*",
+    "https://*/*",
+    // "experimental",
+    {"socket": [
+      "tcp-connect:*:*",
+      "udp-bind",
+      "udp-send-to",
+      "tcp-listen",
+      "tcp-connect"
+    ]}
+  ]
+}
