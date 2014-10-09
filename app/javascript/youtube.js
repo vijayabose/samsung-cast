@@ -69,7 +69,7 @@ var youtube = {
 			youtube.player.pauseVideo();
 		}else{
 			if(youtube.videoId == ""){
-			   youtube.changeVideo(app.default.youtubeId);
+			   youtube.changeVideo(app.vedioId.youtubeId);
 			}else{
 				youtube.player.playVideo();
 			}

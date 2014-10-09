@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.samsung.com/">  
-  <cpname itemtype="string"/>  
-  <cplogo itemtype="string"/>  
-  <cpauthjs itemtype="string"/>  
-  <ThumbIcon itemtype="string"></ThumbIcon>  
-  <BigThumbIcon itemtype="string"></BigThumbIcon>  
-  <ListIcon itemtype="string"></ListIcon>  
-  <BigListIcon itemtype="string"></BigListIcon>  
+  <ThumbIcon itemtype="string">app/img/zcast-logo.png</ThumbIcon>
+  <BigThumbIcon itemtype="string">app/img/zcast-logo.png</BigThumbIcon>
+  <ListIcon itemtype="string">app/img/zcast-logo.png</ListIcon>
+  <BigListIcon itemtype="string">app/img/zcast-logo.png</BigListIcon> 
   <category itemtype="string">Information</category>  
-  <autoUpdate itemtype="boolean">n</autoUpdate>  
-  <ver itemtype="string">0.100</ver>  
-  <mgrver itemtype="string"/>  
+  <autoUpdate itemtype="boolean">y</autoUpdate>  
+  <ver itemtype="string">0.001</ver>  
+  <mgrver itemtype="string">0.0001</mgrver>
   <fullwidget itemtype="boolean">y</fullwidget>  
   <type itemtype="string">user</type>  
   <srcctl itemtype="boolean">y</srcctl>  
@@ -25,7 +22,6 @@
   <author itemtype="group"> 
     <name itemtype="string">vbose</name>  
     <email itemtype="string">vbose@24hourapp.com</email>  
-    <link itemtype="string"/>  
-    <organization itemtype="string"/> 
+    <organization itemtype="string">Zcast Apps</organization>
   </author> 
 </widget>

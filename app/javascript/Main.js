@@ -10,7 +10,7 @@ app.getCurrentSelection = function(){
 }
 app.MAIN_PAGE = "mainpage";
 app.CURRENT_PAGE = app.MAIN_PAGE;
-app.default =  {'youtubeId' : '38peWm76l-U'};
+app.vedioId =  {'youtubeId' : 'GELKWLdCTv8'};
 Main = {};
 Main.onLoad = function()
 {
