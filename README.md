@@ -5,13 +5,13 @@ Samsung - app for casting browser to TV
 
 This will be having 2 apps. 
 
-1. Browser Extension
+1. Browser Extension 
 2. Samsung TV App
 
 
 
 
-Browser Extension:
+Browser Extension: (Refer - https://github.com/vijayabose/samsung-cast-extension)
 
 Development Version - Version 0.9
 
